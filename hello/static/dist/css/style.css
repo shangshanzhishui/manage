@@ -1,0 +1,101 @@
+div.controlform,
+div.editform {
+	position: relative;
+	width: 260px;
+	background-color: #fff;
+	margin: auto;
+	padding: 25px ;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px 0 rgba(7,17,27,.06);
+}
+
+div.editform {
+	width: 500px;
+}
+
+div.controlform a.closebtn,
+div.editform a.closebtn {
+	position: absolute;
+	top: 5px;
+	right: 8px;
+	text-decoration: none;
+}
+
+div.controlform h2,
+div.editform h2 {
+	margin-top: 0;
+}
+
+div.controlform input,
+div.editform input {
+	width: 96%;
+	height: 25px;
+	margin: 10px 0;
+	padding: 3px;
+	font-size: 18px;
+}
+
+div.controlform button,
+div.editform button {
+	font-size: 18px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+table {
+	margin-bottom: 35px;
+}
+
+table tr td {
+	text-align: left;
+	padding-right: 86px;
+}
+
+span.notice {
+	color: red;
+}
+
+h3.msg {
+	color: green;
+}
+
+img {
+	width: 203px;
+	height: 200px;
+	position: absolute;
+	bottom: 30px;
+	right: 0px;
+	border-radius: 50%;
+}
+
+input.search {
+	position: absolute;
+	width: 50%!important;
+	top: 29px;
+	right: 30px;
+}
+
+ul.pages {
+	float: left;
+	position: absolute;
+	bottom: -8px;
+	margin-left: 10%;
+}
+
+ul.pages li {
+	display: inline-block;
+	padding: 3px;
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+	border-radius: 2px;
+}
+
+ul.pages a {
+	text-decoration: underline;
+	cursor: pointer;
+	color: blue;
+}
+
+

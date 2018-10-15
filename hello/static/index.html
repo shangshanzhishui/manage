@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vue App</title>
+	<link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+	<div id="app">
+		<h1>Vue App</h1>
+		<h3 class="msg" v-text="msg"></h3>
+		<div v-if="!logined">
+			<router-link to="/regist">注册</router-link>
+		  <router-link to="/login">登录</router-link>
+		</div>
+		<div v-else>
+			<router-link to="/" @click.native="logout">退出</router-link>
+			<router-link to="/profile">用户资料</router-link>
+			<router-link to="/list" v-if="is_super">管理用户</router-link>
+		</div>
+		<router-view :info="userinfo" :list="userlist" @logintag="handleLogin" @regist="handleRegist" @reset="handleReset" @editprofile="handleEditProfile" @deletetag="handleDelete" />
+	</div>
+	
+	<script type='text/javascript' src="dist/js/vue.js"></script>
+	<script type='text/javascript' src="dist/js/vue-router.js"></script>
+	<script type='text/javascript' src="dist/js/lodash.core.min.js"></script>
+	<script type='text/javascript' src="dist/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+div.controlform,
+div.editform {
+	position: relative;
+	width: 260px;
+	background-color: #fff;
+	margin: auto;
+	padding: 25px ;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px 0 rgba(7,17,27,.06);
+}
+
+div.editform {
+	width: 500px;
+}
+
+div.controlform a.closebtn,
+div.editform a.closebtn {
+	position: absolute;
+	top: 5px;
+	right: 8px;
+	text-decoration: none;
+}
+
+div.controlform h2,
+div.editform h2 {
+	margin-top: 0;
+}
+
+div.controlform input,
+div.editform input {
+	width: 96%;
+	height: 25px;
+	margin: 10px 0;
+	padding: 3px;
+	font-size: 18px;
+}
+
+div.controlform button,
+div.editform button {
+	font-size: 18px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+table tr td {
+	text-align: left;
+	padding-right: 86px;
+}
+
+span.notice {
+	color: red;
+}
+
+h3.msg {
+	color: green;
+}
+
+
+
+
+
+
